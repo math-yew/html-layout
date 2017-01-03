@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(248,229,83);
+  margin: 0px;
+  display: block;
+}
+div {
+  margin: auto;
+}
+.first {
+  height: 80px;
+  background-color: rgb(216,216,216);
+}
+
+.second {
+  height: calc(100vh/7*2);
+  width: 100%;
+  background-color: white;
+  font-size: 25px;
+  padding: 20px ;
+  box-sizing: border-box;
+}
+
+.third {
+  height: calc(100vh/7);
+  width:100%;
+  background-color: rgb(68,146,220);
+}
+
+.fourth {
+  height: calc(100vh/7);
+  width:100%;
+  background-color: rgb(60,227,196);
+}
+.fifth {
+  height: calc(100vh/7);
+  width:100%;
+  background-color: rgb(181,232,146);
+}
+.sixth {
+  height: calc(100vh/7);
+  width:100%;
+  background-color: rgb(248,229,83);
+}
+
+.box {
+  height: 65px;
+  width:65px;
+  background-color: rgb(68,146,220);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  float: left;
+  margin: 0px 10px;
+  vertical-align: middle;
+}
